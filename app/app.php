@@ -15,7 +15,6 @@
       $result = $new_word->makeAnagram($_POST['word']);
       return $app['twig']->render('shuffle.html.twig', array('result' => $result));
 
-
     });
 
     return $app;
